@@ -6,7 +6,7 @@ DeltaZone.Boot.prototype = {
   preload: function() {
   	//assets used in the loading screen
     this.load.image("logo", "assets/logo.png");
-    this.load.image("preloadBar", "assets/PreloadSBar.png");
+    this.load.image("preloadBar", "assets/PreloadBar.PNG");
   },
   create: function() {
     this.game.stage.backgroundColor = "#fff";
