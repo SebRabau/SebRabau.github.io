@@ -21,8 +21,8 @@ Tankk.Preload.prototype = {
         this.load.image("Bush_01", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-tilesets-environment/PNG/Trees Bushes/TDS04_0012_Bush-01.png");
         this.load.image("Bush_02", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-tilesets-environment/PNG/Trees Bushes/TDS04_0011_Bush-02.png");
         this.load.image("Tree_01", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-tilesets-environment/PNG/Trees Bushes/TDS04_0019_Tree4.png");
-        this.load.image("DirtToRoad", "assets/Tiles/_0008_DirtToRoad.png");
-        this.load.image("RoadDecals", "assets/Tiles/_0005_RoadDecals.png");
+        this.load.image("DirtToRoad", "assets/Tiles/DirtToRoad.png");
+        this.load.image("RoadDecals", "assets/Tiles/RoadDecals.png");
         
         //Broken Vehicles
         this.load.image("BrokenChopper", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-soldiers-and-vehicles-sprites-2/Helicopter/Broken/BrokenBase.png");
