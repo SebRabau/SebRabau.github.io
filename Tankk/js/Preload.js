@@ -17,16 +17,16 @@ Tankk.Preload.prototype = {
         
         //terrain
         this.load.tilemap("map", "assets/Tiles/TileMaps/Tankk-Map1.json", null, Phaser.Tilemap.TILED_JSON);
-        this.load.image("Base", "assets/Tiles/TileAssets/WarZone Assets/tds-modern-tilesets-environment/PNG/House/TDS04_House02.png");
-        this.load.image("Bush_01", "assets/Tiles/TileAssets/WarZone Assets/tds-modern-tilesets-environment/PNG/Trees Bushes/TDS04_0012_Bush-01.png");
-        this.load.image("Bush_02", "assets/Tiles/TileAssets/WarZone Assets/tds-modern-tilesets-environment/PNG/Trees Bushes/TDS04_0011_Bush-02.png");
-        this.load.image("Tree_01", "assets/Tiles/TileAssets/WarZone Assets/tds-modern-tilesets-environment/PNG/Trees Bushes/TDS04_0019_Tree4.png");
-        this.load.image("DirtToRoad", "assets/Tiles/TileAssets/WarZone Assets/tds-modern-tilesets-environment/PNG/Tiles/_0008_DirtToRoad.png");
-        this.load.image("RoadDecals", "assets/Tiles/TileAssets/WarZone Assets/tds-modern-tilesets-environment/PNG/Tiles/_0005_RoadDecals.png");
+        this.load.image("Base", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-tilesets-environment/PNG/House/TDS04_House02.png");
+        this.load.image("Bush_01", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-tilesets-environment/PNG/Trees Bushes/TDS04_0012_Bush-01.png");
+        this.load.image("Bush_02", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-tilesets-environment/PNG/Trees Bushes/TDS04_0011_Bush-02.png");
+        this.load.image("Tree_01", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-tilesets-environment/PNG/Trees Bushes/TDS04_0019_Tree4.png");
+        this.load.image("DirtToRoad", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-tilesets-environment/PNG/Tiles/_0008_DirtToRoad.png");
+        this.load.image("RoadDecals", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-tilesets-environment/PNG/Tiles/_0005_RoadDecals.png");
         
         //Broken Vehicles
-        this.load.image("BrokenChopper", "assets/Tiles/TileAssets/WarZone Assets/tds-modern-soldiers-and-vehicles-sprites-2/Helicopter/Broken/BrokenBase.png");
-        this.load.image("Humvee_Broken_05", "assets/Tiles/TileAssets/WarZone Assets/tds-pixel-art-modern-soldiers-and-vehicles-sprites/Humvee/Broken/Humvee_Broken_0005.png");
+        this.load.image("BrokenChopper", "assets/Tiles/TileAssets/WarZoneAssets/tds-modern-soldiers-and-vehicles-sprites-2/Helicopter/Broken/BrokenBase.png");
+        this.load.image("Humvee_Broken_05", "assets/Tiles/TileAssets/WarZoneAssets/tds-pixel-art-modern-soldiers-and-vehicles-sprites/Humvee/Broken/Humvee_Broken_0005.png");
 
         //Menu & UI
         this.load.image("logo", "assets/Logo.png");
