@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TAW Overwatch Team Sorter</title>
+        <script src="app.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+        <p>Paste in roster from TAW spreadsheet in exact format, followed by the entire attendance sheet. Then press buttons below to sort players. Distribution is Random so you may have to press a few times to get balanced teams.</p>
+        <br/>
+        <p>Set Rank Limits (Low - Med): <input type="text" id="low" value=2300> <input type="text" id="med" value=3000> <button onclick="setRankLimits()">Change Limits</button></p>
+        <p>
+            Place list of members and SR's from spreadsheet below: *Exclude a member (e.g. not able to play or is an SL) by putting a '#' in front of their name, e.g. #Arwith*
+        </p>
+        <textarea id="spreadsheet" cols="50" rows="10"></textarea>
+        <br/>
+        <p>
+            Place list of members from attendance report below:
+        </p>
+        <textarea id="attendance" cols="50" rows="10"></textarea>
+        <br/>
+        <button id="similar" onclick="makeSimilar()">Similar Ranked Teams</button> <button id="Mixed" onclick="makeMixed()">Mixed Rank Teams</button>
+        <br/>
+        <div id="team1"></div>
+        <br/>
+        <div id="team2"></div>
+        <br/>
+        <div id="team3"></div>
+        <br/>
+        <div id="team4"></div>
+        <br/>
+        <div id="team5"></div>
+        <br/>
+        <div id="team6"></div>
+        <br/>
+        <div id="team7"></div>
+        <br/>
+        <div id="team8"></div>
+    </body>  
+</html>
